@@ -34,7 +34,6 @@
 		"is-plain-object": "^2.0.4",
 		"lodash": "^4.17.15",
 		"plugin-error": "^1.0.1",
-		"svelte": "^3.19.1",
 		"vinyl": "^2.2.0",
 		"vinyl-sourcemaps-apply": "^0.2.1"
 	},
@@ -44,6 +43,9 @@
 		"nyc": "^13.3.0",
 		"nyc-config-common": "^1.0.1",
 		"tape": "^4.13.0"
+	},
+	"peerDependencies": {
+		"svelte": "3.x"
 	},
 	"eslintConfig": {
 		"extends": "@shinnn"
